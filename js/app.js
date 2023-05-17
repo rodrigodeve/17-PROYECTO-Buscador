@@ -50,17 +50,17 @@ filtrarAuto();
 });
 
 puertas.addEventListener('change', e => {
-datosBusqueda.puertas = e.target.value;
+datosBusqueda.puertas = Number(e.target.value);
 filtrarAuto();
 });
 
 minimo.addEventListener('change', e => {
-datosBusqueda.minimo = e.target.value;
+datosBusqueda.minimo = Number(e.target.value);
 filtrarAuto();
 });
 
 maximo.addEventListener('change', e => {
-datosBusqueda.maximo = e.target.value;
+datosBusqueda.maximo = Number(e.target.value);
 filtrarAuto();
 });
 
